@@ -20,7 +20,15 @@ Including another URLconf
 #from django.contrib import admin
 #from django.urls import path
 
+from django.urls import include, re_path
+import CheckDApp.views
+
+
 urlpatterns = [
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
+
+    re_path(r'^$', CheckDApp.views.index, name='index'),
+    re_path(r'^home$', CheckDApp.views.index, name='home')
+
 ]
