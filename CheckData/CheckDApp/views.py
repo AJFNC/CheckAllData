@@ -12,7 +12,9 @@ def index(request):
                     "CheckDApp/index.html",  # Relative path from the 'templates' folder to the template file
                     # "index.html", # Use this code for VS 2017 15.7 and earlier
                     {
-                        'content': "Fala galera no " + now.strftime("%A, %d %B, %Y at %X")
+                        'content': "Fala galera no " + now.strftime("%A, %d %B, %Y at %X"),
+                        'title': "Verifica dados da Bluewater",
+                        'message': "Teste de variaveis: "
                     }
                )
 
