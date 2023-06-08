@@ -44,12 +44,14 @@
     <Compile Include="CheckData\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CheckDApp\static\site.css" />
     <Content Include="CheckDApp\templates\CheckDApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CheckDApp\" />
     <Folder Include="CheckDApp\migrations\" />
+    <Folder Include="CheckDApp\static\" />
     <Folder Include="CheckDApp\templates\" />
     <Folder Include="CheckDApp\templates\CheckDApp\" />
     <Folder Include="CheckData\" />

@@ -18,16 +18,3 @@ def index(request):
                     }
                )
 
-
-#    now = datetime.now()
-
-#    return render(
-#                  request,
-#                  "CheckDApp/index.html",
-#                  {
-#                      'content':"Primeiro template do projeto CheckDApp" + now.strftime("%A, %d %B, %Y at %X")
-#                  }
-#           )
-
-
-##HttpResponse("Estamos aqui Galera!")
