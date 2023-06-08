@@ -29,6 +29,6 @@ urlpatterns = [
     #path('admin/', admin.site.urls)
 
     re_path(r'^$', CheckDApp.views.index, name='index'),
-    re_path(r'^home$', CheckDApp.views.index, name='home')
-
+    re_path(r'^home$', CheckDApp.views.index, name='home'),
+    re_path(r'^about$', CheckDApp.views.about, name='about'),
 ]

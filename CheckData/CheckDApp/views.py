@@ -18,3 +18,12 @@ def index(request):
                     }
                )
 
+def about(request):
+    return render(
+        request,
+        "CheckDApp/about.html",
+        {
+            'title' : "About CheckDApp",
+            'content' : "Exemplo de pagina de app para o Django."
+        }
+    )
