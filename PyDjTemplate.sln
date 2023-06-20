@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CheckData", "CheckData\CheckData.pyproj", "{634D0CFA-4DC2-4AAA-916F-10E923EC8D8E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CheckDWeb", "CheckDWeb\CheckDWeb.pyproj", "{BB8549D5-189E-47CB-97FE-6B56B8CEB67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{634D0CFA-4DC2-4AAA-916F-10E923EC8D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634D0CFA-4DC2-4AAA-916F-10E923EC8D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634D0CFA-4DC2-4AAA-916F-10E923EC8D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634D0CFA-4DC2-4AAA-916F-10E923EC8D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8549D5-189E-47CB-97FE-6B56B8CEB67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8549D5-189E-47CB-97FE-6B56B8CEB67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8549D5-189E-47CB-97FE-6B56B8CEB67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8549D5-189E-47CB-97FE-6B56B8CEB67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F2F1B01-9DC0-4DC1-89E6-E5DABCC20DB9}
+	EndGlobalSection
+EndGlobal
